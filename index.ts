@@ -2,7 +2,7 @@ import app from "./src/app.js";
 import mongoose from "mongoose";
 import Logger from "./src/utils/logger.js";
 
-const APP_PORT = process.env.APP_PORT || 9000;
+const APP_PORT = process.env.PORT || 9000;
 const APP_URL = process.env.APP_URL || `http://localhost:${APP_PORT}`;
 const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/gethealth";
 
