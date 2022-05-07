@@ -31,5 +31,10 @@
     "concurrently": "^7.1.0",
     "nodemon": "^2.0.16",
     "typescript": "^4.6.4"
+  },
+  "engines": {
+    "node": ">=16.x",
+    "npm": ">=6.x",
+    "yarn": "1.22.10"
   }
 }

@@ -12,6 +12,10 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(morgan("dev"));
 
+app.get("/", (req: Request, res: Response) => {
+  return res.send("working")
+})
+
 app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   res.status(err.status || 500).send(err.message);
 });
