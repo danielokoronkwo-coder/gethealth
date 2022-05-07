@@ -9,7 +9,7 @@ const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/gethealth"
 
 mongoose
     .connect(MONGO_URI)
-    .then(() => Logger.info("MongoDB connected successfully"))
+    .then(() => Logger.warn("MongoDB connected successfully"))
     .catch((error) => Logger.error("Error connecting to the Database", error));
 
-app.listen(APP_PORT, () => Logger.debug(`Server listening on ${APP_URL}`));
+app.listen(APP_PORT, () => Logger.info(`Server listening on ${APP_URL}`));
