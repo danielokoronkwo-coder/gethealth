@@ -21,6 +21,7 @@
     "joi": "^17.6.0",
     "mongoose": "^6.3.2",
     "morgan": "^1.10.0",
+    "typescript": "^4.6.4",
     "winston": "^3.7.2"
   },
   "devDependencies": {
@@ -29,8 +30,7 @@
     "@types/morgan": "^1.9.3",
     "@types/node": "^17.0.31",
     "concurrently": "^7.1.0",
-    "nodemon": "^2.0.16",
-    "typescript": "^4.6.4"
+    "nodemon": "^2.0.16"
   },
   "engines": {
     "node": ">=16.x",

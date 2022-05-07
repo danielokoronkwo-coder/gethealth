@@ -50,7 +50,7 @@ Thumbs.db
 *.wmv
 
 # dotenv environment variables file
-.env*
+.env
 
 # Compiled TypeScript
 dist
