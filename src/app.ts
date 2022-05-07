@@ -13,7 +13,7 @@ app.use(cors());
 app.use(morgan("dev"));
 
 app.get("/", (req: Request, res: Response) => {
-  return res.send("working")
+  return res.send("hello working")
 })
 
 app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
